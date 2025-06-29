@@ -18,7 +18,7 @@ app.post('/api/generate-topic', async (req, res) => {
         messages: [
           {
             role: 'system',
-            content: You are an AI teacher. Explain the topic given by the user in an engaging ${mode} format, and then generate 10–15 quiz questions to test the user's understanding.,
+            content: "You are an AI teacher. Explain the topic given by the user in an engaging ${mode} format, and then generate 10–15 quiz questions to test the user's understanding.",
           },
           {
             role: 'user',
